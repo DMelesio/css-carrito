@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Griffy|Indie+Flower|Josefin+Sans');
+        @import url('https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Sans|Muli|Poiret+One');
+        @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+    /*font-family: 'Comfortaa', cursive;*/
+    /*font-family: 'Itim', cursive;*/
+
+
+        *{ margin: 0; padding: 0; }
+
+        li{list-style: none;}
+        a{text-decoration: none;}
+        p{
+            font-family: 'Muli', sans-serif;
+            color: white; 
+        }
+
+        header{    
+            width: 100%;
+            height: 40px;
+            position: static;
+            background: black;
+            /*z-index: 1;*/
+            padding: 10px 10px;
+            text-align: center;
+            color: #FFD700;
+            font-family:'Josefin Sans', sans-serif;
+            font-size: 22px;
+            }
+
+        .encima{color: crimson;}
+
+        .activo{background-color: gray;}
+
+        /*contenedor*/
+        section{
+            width: 100%;
+            height: 1000px;
+            }
+        #controles{
+            background: url(https://i.pinimg.com/originals/ee/e3/b0/eee3b0ad75299ec65738e7b7d1fdb0b4.jpg) 50% 0 fixed;
+            background-size: cover;
+            }
+
+        /*botones*/
+        #control{
+            position: relative;
+            top: 45px;
+            width: 800px;
+            margin: 0 auto;
+            background-color: rgba( 26, 6, 63, 0.5);
+            border-radius: 50px;
+            }
+
+        #control h2{
+            font-family: 'Comfortaa', cursive;
+            color: darkorange;
+            padding-bottom: 10px;
+            }
+
+        #control input{
+            background-color: #fad201; 
+            border-radius: 15px; 
+            height:120px; 
+            width:120px; 
+            border: none; 
+            color: black; 
+            padding: 16px 24px; 
+            margin: 4px 2px;
+            font-family: 'Itim', cursive;
+            font-size: 22px;    
+            }
+
+        /*texto titulo*/
+        #title{
+            padding: 100px 10%;
+            width: 70%;
+            margin: 0 auto;
+            }
+
+        #title ul{
+            background-color: rgba( 26, 6, 63, 0.8);
+            padding: 20px;
+            border-radius: 20px; 
+            }
+
+        #title h3{
+            cursor: pointer;
+            font-family: 'Poiret One', cursive;
+            color: #ff851b;
+            letter-spacing: 3px;
+            border-bottom: 5px;
+            border-bottom-style: double;
+            margin: 10px auto 10px 0;
+            padding-left: 20px;
+            }
+
+        /*ordenador*/
+        @media screen and (min-width: 780px){
+            #titulo p{
+                font-size: 18px;
+                line-height: 25px;
+            }
+    
+            #titulo h3{
+                font-size: 25px;
+            }
+        }
+
+        /*mobile*/
+        @media screen and (max-width: 480px){}
+        /*tablet*/
+        @media screen and (min-width: 481px) and (max-width: 779px){}  
